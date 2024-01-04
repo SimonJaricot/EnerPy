@@ -1,0 +1,9 @@
+# Projet EnerPy
+
+EnerPy a pour but d'analyser la consommation et la production d'énergie en France sur une période allant de 2013 à 2020 afin de déterminer s'il y a de potentiels risques de blackout, d'estimer l'évolution de la consommation et de la production.
+
+Pour cela, nous allons utiliser les datasets suivants:
+* Les [données](https://opendata.reseaux-energies.fr/explore/dataset/eco2mix-regional-cons-def/information/?disjunctive.libelle_region&disjunctive.nature&sort=-date_heure) initiales fournies par [RTE France](https://www.rte-france.com/). *Licence [Etalab](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)*
+* Les [données sur le rayonnement solaire et la vitesse du vent](https://opendata.reseaux-energies.fr/explore/dataset/rayonnement-solaire-vitesse-vent-tri-horaires-regionaux/information/?disjunctive.region) fournies par [Weathernews France](http://www.weathernews.fr/). *Licence [Etalab](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)*
+* Les [températures](https://opendata.reseaux-energies.fr/explore/dataset/temperature-quotidienne-regionale/information/?disjunctive.region) fournies par [Weathernews France](http://www.weathernews.fr/). *Licence [Etalab](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)*
+* Les données [de coordonnées géographiques des régions](https://www.data.gouv.fr/en/datasets/contours-des-regions-francaises-sur-openstreetmap/) fournies par [Open Street Map](https://www.openstreetmap.fr/). *Licence [ODbL](https://opendatacommons.org/licenses/odbl/1-0/)*
